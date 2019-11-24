@@ -1,0 +1,562 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Materialize Documentation</title>
+    <style>
+        .box {
+            height: 200px;
+        }
+
+        .box-color {
+            width: 100%;
+            height: 55px;
+            padding: 5px 15px;
+            font-weight: 500;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            -webkit-box-pack: center;
+            -webkit-flex-direction: column;
+            text-align: center;
+        }
+
+        .shadow-box {
+            background-color: lightblue;
+            height: 120px;
+        }
+
+        .col-style {
+            padding: 10px;
+            background: #ddd;
+            border: 1px solid #fff;
+            line-height: 60px;
+        }
+
+        nav .badge {
+            position: relative;
+            top: 20px;
+            right: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Materialize Documentation</h1>
+    </header>
+    <div class="container">
+
+        <br>
+
+        <!-- Basic text Style -->
+        <h2>Basic text Style</h2>
+        <hr>
+        <h1>Text Style</h1>
+        <h2>Text Style</h2>
+        <h3>Text Style</h3>
+        <h4>Text Style</h4>
+        <h5>Text Style</h5>
+        <h6>Text Style</h6>
+        <p>This is paragraph</p>
+        <p class="flow-text">This is flow text</p>
+        <br>
+
+        <!-- Hiding Content -->
+        <h2>Hiding Content</h2>
+        <hr>
+        <h4 class="hide">Hide me on all screen sizes</h4>
+        <h4 class="hide-on-small-only ">Hide me on small screen sizes</h4>
+        <h4 class="hide-on-med-only">Hide me on medium screen sizes</h4>
+        <h4 class="hide-on-large-only">Hide me on large screen sizes</h4>
+        <h4 class="hide-on-med-and-down">Hide me on medium & small screen sizes</h4>
+        <h4 class="hide-on-med-and-up">Hide me on medium & large screen sizes</h4>
+        <br>
+
+        <!-- Card -->
+        <h2>Card</h2>
+        <hr>
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="title">
+                        Contoh Card
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quae sunt in sequi rem
+                        expedita fugit repellendus necessitatibus tenetur maxime adipisci quod quaerat voluptatem
+                        sapiente impedit, voluptates corrupti praesentium eligendi.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Colors -->
+        <h2>Colours</h2>
+        <hr>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="box-color red lighten-5">red lighten-5</div>
+                <div class="box-color red lighten-4">red lighten-4</div>
+                <div class="box-color red lighten-3">red lighten-3</div>
+                <div class="box-color red lighten-2">red lighten-2</div>
+                <div class="box-color red lighten-1">red lighten-1</div>
+                <div class="box-color red">red</div>
+                <div class="box-color red darken-1">red darken-1</div>
+                <div class="box-color red darken-2">red darken-2</div>
+                <div class="box-color red darken-3">red darken-3</div>
+                <div class="box-color red darken-4">red darken-4</div>
+                <div class="box-color red darken-5">red darken-5</div>
+                <div class="box-color red accent-1">red accent-1</div>
+                <div class="box-color red accent-2">red accent-2</div>
+                <div class="box-color red accent-3">red accent-3</div>
+                <div class="box-color red accent-4">red accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color pink lighten-5">pink lighten-5</div>
+                <div class="box-color pink lighten-4">pink lighten-4</div>
+                <div class="box-color pink lighten-3">pink lighten-3</div>
+                <div class="box-color pink lighten-2">pink lighten-2</div>
+                <div class="box-color pink lighten-1">pink lighten-1</div>
+                <div class="box-color pink">pink</div>
+                <div class="box-color pink darken-1">pink darken-1</div>
+                <div class="box-color pink darken-2">pink darken-2</div>
+                <div class="box-color pink darken-3">pink darken-3</div>
+                <div class="box-color pink darken-4">pink darken-4</div>
+                <div class="box-color pink darken-5">pink darken-5</div>
+                <div class="box-color pink accent-1">pink accent-1</div>
+                <div class="box-color pink accent-2">pink accent-2</div>
+                <div class="box-color pink accent-3">pink accent-3</div>
+                <div class="box-color pink accent-4">pink accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color purple lighten-5">purple lighten-5</div>
+                <div class="box-color purple lighten-4">purple lighten-4</div>
+                <div class="box-color purple lighten-3">purple lighten-3</div>
+                <div class="box-color purple lighten-2">purple lighten-2</div>
+                <div class="box-color purple lighten-1">purple lighten-1</div>
+                <div class="box-color purple">purple</div>
+                <div class="box-color purple darken-1">purple darken-1</div>
+                <div class="box-color purple darken-2">purple darken-2</div>
+                <div class="box-color purple darken-3">purple darken-3</div>
+                <div class="box-color purple darken-4">purple darken-4</div>
+                <div class="box-color purple darken-5">purple darken-5</div>
+                <div class="box-color purple accent-1">purple accent-1</div>
+                <div class="box-color purple accent-2">purple accent-2</div>
+                <div class="box-color purple accent-3">purple accent-3</div>
+                <div class="box-color purple accent-4">purple accent-4</div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="box-color deep-purple lighten-5">deep-purple lighten-5</div>
+                <div class="box-color deep-purple lighten-4">deep-purple lighten-4</div>
+                <div class="box-color deep-purple lighten-3">deep-purple lighten-3</div>
+                <div class="box-color deep-purple lighten-2">deep-purple lighten-2</div>
+                <div class="box-color deep-purple lighten-1">deep-purple lighten-1</div>
+                <div class="box-color deep-purple">deep-purple</div>
+                <div class="box-color deep-purple darken-1">deep-purple darken-1</div>
+                <div class="box-color deep-purple darken-2">deep-purple darken-2</div>
+                <div class="box-color deep-purple darken-3">deep-purple darken-3</div>
+                <div class="box-color deep-purple darken-4">deep-purple darken-4</div>
+                <div class="box-color deep-purple darken-5">deep-purple darken-5</div>
+                <div class="box-color deep-purple accent-1">deep-purple accent-1</div>
+                <div class="box-color deep-purple accent-2">deep-purple accent-2</div>
+                <div class="box-color deep-purple accent-3">deep-purple accent-3</div>
+                <div class="box-color deep-purple accent-4">deep-purple accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color indigo lighten-5">indigo lighten-5</div>
+                <div class="box-color indigo lighten-4">indigo lighten-4</div>
+                <div class="box-color indigo lighten-3">indigo lighten-3</div>
+                <div class="box-color indigo lighten-2">indigo lighten-2</div>
+                <div class="box-color indigo lighten-1">indigo lighten-1</div>
+                <div class="box-color indigo">indigo</div>
+                <div class="box-color indigo darken-1">indigo darken-1</div>
+                <div class="box-color indigo darken-2">indigo darken-2</div>
+                <div class="box-color indigo darken-3">indigo darken-3</div>
+                <div class="box-color indigo darken-4">indigo darken-4</div>
+                <div class="box-color indigo darken-5">indigo darken-5</div>
+                <div class="box-color indigo accent-1">indigo accent-1</div>
+                <div class="box-color indigo accent-2">indigo accent-2</div>
+                <div class="box-color indigo accent-3">indigo accent-3</div>
+                <div class="box-color indigo accent-4">indigo accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color blue lighten-5">blue lighten-5</div>
+                <div class="box-color blue lighten-4">blue lighten-4</div>
+                <div class="box-color blue lighten-3">blue lighten-3</div>
+                <div class="box-color blue lighten-2">blue lighten-2</div>
+                <div class="box-color blue lighten-1">blue lighten-1</div>
+                <div class="box-color blue">blue</div>
+                <div class="box-color blue darken-1">blue darken-1</div>
+                <div class="box-color blue darken-2">blue darken-2</div>
+                <div class="box-color blue darken-3">blue darken-3</div>
+                <div class="box-color blue darken-4">blue darken-4</div>
+                <div class="box-color blue darken-5">blue darken-5</div>
+                <div class="box-color blue accent-1">blue accent-1</div>
+                <div class="box-color blue accent-2">blue accent-2</div>
+                <div class="box-color blue accent-3">blue accent-3</div>
+                <div class="box-color blue accent-4">blue accent-4</div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="box-color light-blue lighten-5">light-blue lighten-5</div>
+                <div class="box-color light-blue lighten-4">light-blue lighten-4</div>
+                <div class="box-color light-blue lighten-3">light-blue lighten-3</div>
+                <div class="box-color light-blue lighten-2">light-blue lighten-2</div>
+                <div class="box-color light-blue lighten-1">light-blue lighten-1</div>
+                <div class="box-color light-blue">light-blue</div>
+                <div class="box-color light-blue darken-1">light-blue darken-1</div>
+                <div class="box-color light-blue darken-2">light-blue darken-2</div>
+                <div class="box-color light-blue darken-3">light-blue darken-3</div>
+                <div class="box-color light-blue darken-4">light-blue darken-4</div>
+                <div class="box-color light-blue darken-5">light-blue darken-5</div>
+                <div class="box-color light-blue accent-1">light-blue accent-1</div>
+                <div class="box-color light-blue accent-2">light-blue accent-2</div>
+                <div class="box-color light-blue accent-3">light-blue accent-3</div>
+                <div class="box-color light-blue accent-4">light-blue accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color cyan lighten-5">cyan lighten-5</div>
+                <div class="box-color cyan lighten-4">cyan lighten-4</div>
+                <div class="box-color cyan lighten-3">cyan lighten-3</div>
+                <div class="box-color cyan lighten-2">cyan lighten-2</div>
+                <div class="box-color cyan lighten-1">cyan lighten-1</div>
+                <div class="box-color cyan">cyan</div>
+                <div class="box-color cyan darken-1">cyan darken-1</div>
+                <div class="box-color cyan darken-2">cyan darken-2</div>
+                <div class="box-color cyan darken-3">cyan darken-3</div>
+                <div class="box-color cyan darken-4">cyan darken-4</div>
+                <div class="box-color cyan darken-5">cyan darken-5</div>
+                <div class="box-color cyan accent-1">cyan accent-1</div>
+                <div class="box-color cyan accent-2">cyan accent-2</div>
+                <div class="box-color cyan accent-3">cyan accent-3</div>
+                <div class="box-color cyan accent-4">cyan accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color teal lighten-5">teal lighten-5</div>
+                <div class="box-color teal lighten-4">teal lighten-4</div>
+                <div class="box-color teal lighten-3">teal lighten-3</div>
+                <div class="box-color teal lighten-2">teal lighten-2</div>
+                <div class="box-color teal lighten-1">teal lighten-1</div>
+                <div class="box-color teal">teal</div>
+                <div class="box-color teal darken-1">teal darken-1</div>
+                <div class="box-color teal darken-2">teal darken-2</div>
+                <div class="box-color teal darken-3">teal darken-3</div>
+                <div class="box-color teal darken-4">teal darken-4</div>
+                <div class="box-color teal darken-5">teal darken-5</div>
+                <div class="box-color teal accent-1">teal accent-1</div>
+                <div class="box-color teal accent-2">teal accent-2</div>
+                <div class="box-color teal accent-3">teal accent-3</div>
+                <div class="box-color teal accent-4">teal accent-4</div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="box-color green lighten-5">green lighten-5</div>
+                <div class="box-color green lighten-4">green lighten-4</div>
+                <div class="box-color green lighten-3">green lighten-3</div>
+                <div class="box-color green lighten-2">green lighten-2</div>
+                <div class="box-color green lighten-1">green lighten-1</div>
+                <div class="box-color green">green</div>
+                <div class="box-color green darken-1">green darken-1</div>
+                <div class="box-color green darken-2">green darken-2</div>
+                <div class="box-color green darken-3">green darken-3</div>
+                <div class="box-color green darken-4">green darken-4</div>
+                <div class="box-color green darken-5">green darken-5</div>
+                <div class="box-color green accent-1">green accent-1</div>
+                <div class="box-color green accent-2">green accent-2</div>
+                <div class="box-color green accent-3">green accent-3</div>
+                <div class="box-color green accent-4">green accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color light-green lighten-5">light-green lighten-5</div>
+                <div class="box-color light-green lighten-4">light-green lighten-4</div>
+                <div class="box-color light-green lighten-3">light-green lighten-3</div>
+                <div class="box-color light-green lighten-2">light-green lighten-2</div>
+                <div class="box-color light-green lighten-1">light-green lighten-1</div>
+                <div class="box-color light-green">light-green</div>
+                <div class="box-color light-green darken-1">light-green darken-1</div>
+                <div class="box-color light-green darken-2">light-green darken-2</div>
+                <div class="box-color light-green darken-3">light-green darken-3</div>
+                <div class="box-color light-green darken-4">light-green darken-4</div>
+                <div class="box-color light-green darken-5">light-green darken-5</div>
+                <div class="box-color light-green accent-1">light-green accent-1</div>
+                <div class="box-color light-green accent-2">light-green accent-2</div>
+                <div class="box-color light-green accent-3">light-green accent-3</div>
+                <div class="box-color light-green accent-4">light-green accent-4</div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="box-color lime lighten-5">lime lighten-5</div>
+                <div class="box-color lime lighten-4">lime lighten-4</div>
+                <div class="box-color lime lighten-3">lime lighten-3</div>
+                <div class="box-color lime lighten-2">lime lighten-2</div>
+                <div class="box-color lime lighten-1">lime lighten-1</div>
+                <div class="box-color lime">lime</div>
+                <div class="box-color lime darken-1">lime darken-1</div>
+                <div class="box-color lime darken-2">lime darken-2</div>
+                <div class="box-color lime darken-3">lime darken-3</div>
+                <div class="box-color lime darken-4">lime darken-4</div>
+                <div class="box-color lime darken-5">lime darken-5</div>
+                <div class="box-color lime accent-1">lime accent-1</div>
+                <div class="box-color lime accent-2">lime accent-2</div>
+                <div class="box-color lime accent-3">lime accent-3</div>
+                <div class="box-color lime accent-4">lime accent-4</div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Text Formating -->
+        <h2>Text Formating</h2>
+        <hr>
+        <h5 class="center-align">Center alignment</h5>
+        <h5 class="left-align">Left alignment</h5>
+        <h5 class="right-align">Right alignment</h5>
+
+        <div class="grey lighten-2 box valign-wrapper">
+            <h5>Vertical alignment</h5>
+        </div>
+
+        <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ut nesciunt quas odio eos
+            est
+            laborum cum veritatis soluta atque officia praesentium debitis harum voluptatum expedita, mollitia dolorum
+            nulla delectus!</p>
+        <br>
+
+        <!-- Buttons -->
+        <h2>Buttons</h2>
+        <hr>
+        <a href="#" class="btn waves-effect waves-light">Normal Button</a>
+        <a href="#" class="btn-small">Small Button</a>
+        <a href="#" class="btn-large">Large Button</a>
+        <a href="#" class="btn indigo waves-effect waves-light">Indigo Button</a>
+        <a href="#" class="btn disabled">Disabled Button</a>
+        <h3>Floating Button</h3>
+        <a href="#" class="btn-floating pink pulse"></a>
+        <h3>Other Element</h3>
+        <div class="btn">I am a div tag</div>
+        <br><br>
+
+        <!-- Icons -->
+        <h2>Icons</h2>
+        <hr>
+        <h3>Normal Icons</h3>
+        <i class="material-icons red-text">error</i>
+        <i class="material-icons yellow-text text-darken-2">warning</i>
+        <i class="material-icons grey-text">cloud</i>
+        <i class="material-icons blue-text">folder</i>
+        <h3>Icons on Buttons</h3>
+        <a href="#" class="btn indigo">
+            <span>Send</span>
+            <i class="material-icons right">sends</i>
+        </a>
+        <a href="#" class="btn pink waves-effect waves-light">
+            <span>Email</span>
+            <i class="material-icons left">email</i>
+        </a>
+
+        <h3>Icons on Floating Buttons</h3>
+        <a href="#" class="btn-floating blue pulse">
+            <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="btn-floating red pulse">
+            <i class="material-icons">remove</i>
+        </a>
+        <a href="#" class="btn-floating orange pulse">
+            <i class="material-icons">edit</i>
+        </a>
+        <br>
+
+        <!-- Responsive Grid -->
+        <h2>Responsive Grid</h2>
+        <div class="row">
+            <div class="col s3 col-style">Content</div>
+            <div class="col s3 col-style">Content</div>
+            <div class="col s3 col-style">Content</div>
+            <div class="col s3 col-style">Content</div>
+        </div>
+        <div class="row">
+            <div class="col s6 m3 col-style">Content</div>
+            <div class="col s6 m3 col-style">Content</div>
+            <div class="col s6 m3 col-style">Content</div>
+            <div class="col s6 m3 col-style">Content</div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l4 col-style">Content</div>
+            <div class="col s12 m6 l4 col-style">Content</div>
+            <div class="col s12 m6 l4 col-style">Content</div>
+            <div class="col s12 m6 l4 col-style">Content</div>
+            <div class="col s12 m6 l4 col-style">Content</div>
+            <div class="col s12 m6 l4 col-style">Content</div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+            <div class="col s12 m6 l4 x12 col-style">Content</div>
+        </div>
+        <div class="row">
+            <div class="col s12 m8 col-style">Content</div>
+            <div class="col s12 m4 col-style">Content</div>
+            <div class="col s12 m4 col-style">Content</div>
+            <div class="col s12 m8 col-style">Content</div>
+        </div>
+        <br>
+
+        <!-- Depth & Shadows -->
+        <h2>Depth & Shadows</h2>
+        <hr>
+        <div class="row">
+            <div class="col s2">
+                <div class="shadow-box"></div>
+            </div>
+            <div class="col s2">
+                <div class="shadow-box z-depth-1"></div>
+            </div>
+            <div class="col s2">
+                <div class="shadow-box z-depth-2"></div>
+            </div>
+            <div class="col s2">
+                <div class="shadow-box z-depth-3"></div>
+            </div>
+            <div class="col s2">
+                <div class="shadow-box z-depth-4"></div>
+            </div>
+            <div class="col s2">
+                <div class="shadow-box z-depth-5"></div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Navbar -->
+        <h2>Navbar</h2>
+        <hr>
+        <nav class="nav-wrapper indigo">
+            <a href="#" class="brand-logo">BRAND LOGO</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+                        <i class="material-icons">notifications</i>
+                    </a></li>
+                <li><span class="badge white-text pink new">5</span></li>
+            </ul>
+        </nav>
+        <ul class="sidenav" id="mobile-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <br>
+
+        <!-- Collections -->
+        <h2>Collections</h2>
+        <hr>
+        <ul class="collection with-header">
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue">person</i>
+                <span class="title">Ilham</span>
+                <p class="grey-text">black-belt</p>
+                <a href="#" class="secondary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue">person</i>
+                <span class="title">Rivan</span>
+                <p class="grey-text">black-belt</p>
+                <a href="#" class="secondary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue">person</i>
+                <span class="title">Fitri</span>
+                <p class="grey-text">black-belt</p>
+                <a href="#" class="secondary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue">person</i>
+                <span class="title">Hanif</span>
+                <p class="grey-text">black-belt</p>
+                <a href="#" class="secondary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+            </li>
+            <li class="collection-item">
+                Jamil
+            </li>
+            <li class="collection-item">
+                Yuga
+            </li>
+        </ul>
+        <br>
+
+        <!-- Modals -->
+        <h2>Modals</h2>
+        <hr>
+        <p>Klik this button</p>
+        <a href="#term" class="btn orange modal-trigger">Term & Conditions</a>
+
+        <div class="modal" id="term">
+            <div class="modal-content">
+                <h3>Term & Conditions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt eveniet ducimus, esse nisi
+                    aut quod nobis molestiae cupiditate nulla aliquam id, voluptatum ut? Nam minima exercitationem
+                    incidunt sequi commodi.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn orange modal-close">Agree & Close</a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <br><br><br>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        })
+
+        $(document).ready(function () {
+            $('.modal').modal();
+        })
+    </script>
+</body>
+
+</html>
